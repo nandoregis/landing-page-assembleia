@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Aldrich", sans-serif;
+}
+
+body {
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,0.5032387955182073) 10%, rgba(101,157,226,0.3) 90%);
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.quite {
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    background-image: url("../img/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 380px;
+}
+
+header .logomarca {
+    display: flex;
+    justify-content: center;
+}
+
+header .logomarca img {
+    width: 80px;
+}
+
+header .message-of-call-to-people {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.event-date {
+    margin-top: 50px;
+}
+
+.event-date h2 {
+    margin-bottom: 50px;
+    text-align: center;
+}
+.event-date--wraper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.event-date--info {
+    width: 60%;
+    
+}
+.event-date--info p {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.event-date--organization {
+    width: 20%;
+}
+
+.event-date--organization h3 {
+    text-align: center;
+}
+
+/*-----------------------------*/
+
+.local-map {
+    margin-top: 50px;
+}
+
+.local-map h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.local-map__map #map {
+    width: 70%;
+    min-height: 500px;
+    background-color: rebeccapurple;
+}
+
+footer  {
+    margin-top: 50px;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p {
+    width: 45%;
+}
